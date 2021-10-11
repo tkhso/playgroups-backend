@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HMMJ.Data\Playgroup.Data.csproj" />
+    <ProjectReference Include="..\PlayGroup.Data\Playgroup.Data.csproj" />
   </ItemGroup>
 
 </Project>
