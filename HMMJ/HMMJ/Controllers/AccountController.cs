@@ -1,6 +1,6 @@
-﻿using HMMJ.Data;
-using HMMJ.Helpers;
-using HMMJ.Services;
+﻿using Playgroup.Data;
+using Playgroup.Helpers;
+using Playgroup.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HMMJ.Web.Controllers
+namespace Playgroup.Web.Controllers
 {
     public class AccountController : BaseAuthController
     {

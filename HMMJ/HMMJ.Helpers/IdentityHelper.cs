@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
-namespace HMMJ.Helpers
+namespace Playgroup.Helpers
 {
     public static class IdentityHelper
     {

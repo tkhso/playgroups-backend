@@ -1,17 +1,17 @@
-﻿using HMMJ.Data;
+﻿using Playgroup.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HMMJ.Services
+namespace Playgroup.Services
 {
     // ProjectRepository acts as a layer only to do DB CRUDS 
     public class ProjectRepository : IProjectRepository
     {
-        private readonly HMMJContext Context;
+        private readonly PlaygroupContext Context;
 
-        public ProjectRepository(HMMJContext context)
+        public ProjectRepository(PlaygroupContext context)
         {
             this.Context = context;
         }

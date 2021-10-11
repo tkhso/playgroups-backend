@@ -1,6 +1,6 @@
 using System;
 
-namespace HMMJ.Models
+namespace Playgroup.Models
 {
     public class ErrorViewModel
     {

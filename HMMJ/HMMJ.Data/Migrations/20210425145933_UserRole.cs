@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace HMMJ.Data.Migrations
+namespace Playgroup.Data.Migrations
 {
     public partial class UserRole : Migration
     {

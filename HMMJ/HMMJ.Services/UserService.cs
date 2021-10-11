@@ -1,7 +1,7 @@
-﻿using HMMJ.Data;
+﻿using Playgroup.Data;
 
 
-namespace HMMJ.Services
+namespace Playgroup.Services
 {
     public class UserService : IUserService
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HMMJ.Helpers
+namespace Playgroup.Helpers
 {
     public enum PageSize
     {

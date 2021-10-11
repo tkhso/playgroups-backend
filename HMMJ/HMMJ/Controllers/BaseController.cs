@@ -1,5 +1,5 @@
-﻿using HMMJ.Data;
-using HMMJ.Helpers;
+﻿using Playgroup.Data;
+using Playgroup.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace HMMJ.Web.Controllers
+namespace Playgroup.Web.Controllers
 {
     public abstract class BaseController : Controller
     {

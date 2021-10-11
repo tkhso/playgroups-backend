@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Routing;
 using System.Web;
 
-namespace HMMJ.Helpers
+namespace Playgroup.Helpers
 {
     public static class Extensions
     {

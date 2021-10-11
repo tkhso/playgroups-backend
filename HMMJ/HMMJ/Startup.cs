@@ -1,6 +1,6 @@
-using HMMJ.Data;
-using HMMJ.Helpers;
-using HMMJ.Services;
+using Playgroup.Data;
+using Playgroup.Helpers;
+using Playgroup.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -20,7 +20,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HMMJ
+namespace Playgroup
 {
     public class Startup
     {
@@ -78,9 +78,9 @@ namespace HMMJ
                 cfg.Password.RequireLowercase = false;
 
                 cfg.SignIn.RequireConfirmedEmail = false;
-            }).AddEntityFrameworkStores<HMMJContext>().AddDefaultTokenProviders(); ;
+            }).AddEntityFrameworkStores<PlaygroupContext>().AddDefaultTokenProviders(); ;
 
-            services.AddDbContext<HMMJContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<PlaygroupContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             //    .AddEntityFrameworkStores<HMMJContext>();

@@ -1,6 +1,6 @@
-﻿using HMMJ.Helpers;
-using HMMJ.Models;
-using HMMJ.Web.Controllers;
+﻿using Playgroup.Helpers;
+using Playgroup.Models;
+using Playgroup.Web.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HMMJ.Controllers
+namespace Playgroup.Controllers
 {
     public class HomeController : BaseAuthController
     {

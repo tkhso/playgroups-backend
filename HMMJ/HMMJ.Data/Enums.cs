@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HMMJ.Data
+namespace Playgroup.Data
 {
     public enum UserRole
     {

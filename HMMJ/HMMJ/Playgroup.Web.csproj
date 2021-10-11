@@ -26,9 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HMMJ.Data\HMMJ.Data.csproj" />
-    <ProjectReference Include="..\HMMJ.Helpers\HMMJ.Helpers.csproj" />
-    <ProjectReference Include="..\HMMJ.Services\HMMJ.Services.csproj" />
+    <ProjectReference Include="..\HMMJ.Data\Playgroup.Data.csproj" />
+    <ProjectReference Include="..\HMMJ.Helpers\Playgroup.Helpers.csproj" />
+    <ProjectReference Include="..\HMMJ.Services\Playgroup.Services.csproj" />
   </ItemGroup>
 
 </Project>

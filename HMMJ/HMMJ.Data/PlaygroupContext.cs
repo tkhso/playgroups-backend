@@ -5,13 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HMMJ.Data
+namespace Playgroup.Data
 {
-    public class HMMJContext : IdentityDbContext<User, IdentityRole<int>, int>
+    public class PlaygroupContext : IdentityDbContext<User, IdentityRole<int>, int>
     {
         private readonly DbContextOptions Options;
 
-        public HMMJContext(DbContextOptions options)
+        public PlaygroupContext(DbContextOptions options)
             : base(options)
         {
             this.Options = options;

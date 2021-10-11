@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace HMMJ.Data
+namespace Playgroup.Data
 {
     public class User : IdentityUser<int>
     {

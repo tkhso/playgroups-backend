@@ -1,4 +1,4 @@
-﻿using HMMJ.Helpers;
+﻿using Playgroup.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HMMJ.Web.Areas.Admin.Controllers
+namespace Playgroup.Web.Areas.Admin.Controllers
 {
     public class HomeController : BaseAuthAdminController
     {

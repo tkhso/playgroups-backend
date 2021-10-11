@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 
-namespace HMMJ.Helpers
+namespace Playgroup.Helpers
 {
     public static class PaginationHelper
     {

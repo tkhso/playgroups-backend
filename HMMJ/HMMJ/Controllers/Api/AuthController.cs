@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HMMJ.Web.Controllers.Api
+namespace Playgroup.Web.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
