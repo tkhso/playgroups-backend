@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "_LayoutAdminBase.cshtml";
+}
+
+@section Header {
+    @RenderSection("Header", false)
+}
+
+<div id="wrapper">
+    @RenderBody()
+</div>
+
+@section Footer {
+
+    @RenderSection("Scripts", false)
+} 
